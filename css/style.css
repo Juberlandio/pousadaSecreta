@@ -218,6 +218,7 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 background: rgba(73, 153, 124, 60%);
+border: 1px solid var(--cor-0);
 border-radius: 10px;
 }
 .introducao .container-central h1{
