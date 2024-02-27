@@ -337,7 +337,6 @@ display: flex;
 flex-wrap: nowrap;
 justify-content: center;
 align-items: center;
-
 }
 .footer-contato .links-contato li img{
 padding-right: 20px;
@@ -355,5 +354,21 @@ font-weight: bold;
 }
 .footer-copy p{
 padding-top: 30px;
+padding-bottom: 20px;
 cursor: pointer;
+}
+@media (max-width: 600px) {
+.rodape {
+height: auto;
+}
+.footer-contato .links-contato {
+height: auto;
+}
+.footer-contato .links-contato li{
+padding: 10px;
+}
+.footer-contato .links-contato li:nth-child(n+3):nth-child(-n+4){
+padding-left: 0px;
+width: 200px;
+}
 }
