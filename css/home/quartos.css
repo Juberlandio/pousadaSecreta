@@ -1,0 +1,40 @@
+/* Quartos */
+.quartos h2 {
+  padding-top: 80px;
+  padding-bottom: 31px;
+  }
+  .quartos p {
+  padding-bottom: 31px;
+  max-width: 450px;
+  }
+  .quartos .quartos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  }
+  .quartos .quartos-container img {
+  width: 280px;
+  height: 207px;
+  }
+  .quartos .quartos-container p {
+  padding-top: 40px;
+  }
+  .quartos .quartos-container .border {
+  border-bottom: 3px solid var(--cor-p1);
+  }
+  /* .quartos .quartos-container .linha {
+  position: relative;
+  }
+  .quartos .quartos-container .linha::after {
+  content: '';
+  width: 280px;
+  height: 3px;
+  background-color: var(--cor-p1);
+  display: block; 
+  margin-top: 0px;
+  transition: 0.3s;
+  position: absolute;
+  } */
+  

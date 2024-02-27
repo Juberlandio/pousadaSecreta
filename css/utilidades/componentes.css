@@ -1,0 +1,13 @@
+/* Componentes */
+.container {
+  box-sizing: border-box;
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .center {
+  margin: auto;
+  text-align: center;
+  }
