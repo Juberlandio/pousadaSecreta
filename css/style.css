@@ -248,7 +248,10 @@ height: 207px;
 .quartos .quartos-container p {
 padding-top: 40px;
 }
-.quartos .quartos-container .linha {
+.quartos .quartos-container .border {
+border-bottom: 3px solid var(--cor-p1);
+}
+/* .quartos .quartos-container .linha {
 position: relative;
 }
 .quartos .quartos-container .linha::after {
@@ -260,7 +263,7 @@ display: block;
 margin-top: 0px;
 transition: 0.3s;
 position: absolute;
-}
+} */
 
 /* Mapa */
 .mapa{
@@ -307,6 +310,7 @@ justify-content: space-between;
 align-items: center;
 gap: 10px;
 width: 505px;
+background-color: var(--cor-3);
 }
 .pousada picture img{
 max-width: 100px;
