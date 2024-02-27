@@ -45,16 +45,17 @@ padding: 20px;
 .quartos .links-quartos li {
 text-align: start;
 }
-.quartos .links-quartos .item-li li + li{
+.quartos .links-quartos .item-li li + li {
 padding-top: 10px;
 }
-@media (max-width: 1280px){
+@media (max-width: 1280px) {
 .quartos .links-quartos {
 gap: 60px;
 }
 }
-@media (max-width: 600px){
+@media (max-width: 600px) {
 .quartos .links-quartos {
+justify-content: start;
 gap: 40px;
 }
 }
