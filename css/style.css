@@ -6,13 +6,11 @@
 @import "./home/footer.css";
 @import "./home/introducao.css";
 @import "./home/mapa.css";
-@import "./home/quartos.css";
+@import "./home/quarto.css";
 @import "./home/sobre.css";
 
 /* Quartos */
-@import "./precos/footer-precos.css";
-@import "./precos/header-precos.css";
-@import "./precos/precos.css";
+@import "./quartos/quartos.css";
 
 /* Utilidades */
 @import "./utilidades/cores.css";
