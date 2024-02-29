@@ -50,6 +50,6 @@ padding-top: 10px;
 }
 @media (max-width: 600px) {
 .quartos .links-quartos {
-justify-content: start;
+justify-content: center;
 }
 }
