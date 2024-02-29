@@ -1,36 +1,41 @@
 /* Sobre*/
 .sobre {
-  margin-bottom: 108px;
-  }
-  .sobre .top h2 {
-  padding-top: 80px;
-  padding-bottom: 31px;
-  }
-  .sobre .top p {
-  padding-bottom: 88px;
-  }
-  .sobre-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  }
-  .sobre-container .pousada h2 {
-  padding-bottom: 20px;
-  font-weight: bold;
-  }
-  .pousada {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  width: 505px;
-  padding: 10px;
-  background-color: var(--cor-3);
-  }
-  .pousada picture img{
-  max-width: 100px;
-  height: 120px;
-  }
+margin-bottom: 108px;
+}
+.sobre .top h2 {
+padding-top: 80px;
+padding-bottom: 31px;
+}
+.sobre .top p {
+padding-bottom: 88px;
+}
+.sobre-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+.sobre-container .pousada h2 {
+padding-bottom: 20px;
+font-weight: bold;
+}
+.pousada {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+width: 505px;
+padding: 10px;
+background-color: var(--cor-3);
+}
+.pousada picture img{
+max-width: 100px;
+height: 120px;
+}
+@media (max-width: 600px) {
+.sobre .top h2 {
+padding-top: 120px;
+}
+}
