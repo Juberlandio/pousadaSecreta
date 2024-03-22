@@ -43,7 +43,8 @@ gap: 20px;
 }
 .quartos .links-quartos li {
 width: 230px;
-text-align: start;
+text-align: center;
+list-style: none;
 }
 .quartos .links-quartos .item-li li + li {
 padding-top: 10px;

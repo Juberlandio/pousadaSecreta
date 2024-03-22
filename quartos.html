@@ -20,7 +20,7 @@
   <header class="cabecalho-bg">
     <div class="cabecalho container" data-menu="suave">
       <h1 class="font-1-l cor-p3">Pousada<span class="cor-p1">Secreta</span></h1>
-      <nav>
+      <nav aria-label="primária">
         <ul class="menu font-1-s cor-p3">
           <li><a href="index.html">INICIO</a></li>
           <li><a href="index.html#sobre">SOBRE</a></li>
@@ -31,9 +31,9 @@
   </header>
   <div class="bg">
   </div>
-  <section class="quartos-bg">
+  <section class="quartos-bg" aria-labelledby="init">
     <div class="quartos container">
-      <h2 class="font-1-xl cor-p3 center">SEJA BEM-VINDO(A)!</h2>
+      <h2 id="init" class="font-1-xl cor-p3 center">SEJA BEM-VINDO(A)!</h2>
       <p class="font-1-s cor-p3 center">Relaxe em nossas acomodações e curta o melhor de Angra dos Reis. Temos quartos para solteiro, casal ou família.</p>
       <div class="quartos-container center">
         <div class="border">
@@ -61,9 +61,9 @@
       </div>
     </div>
   </section>
-  <section class="quartos-bg" data-anime="scroll">
+  <section class="quartos-bg" aria-labelledby="quartos" data-anime="scroll">
     <div class="quartos container">
-      <h2 class="font-1-xl cor-p3 center">QUARTOS DE CASAL</h2>
+      <h2 id="quartos" class="font-1-xl cor-p3 center">QUARTOS DE CASAL</h2>
       <p class="font-1-s cor-p3 center">Conheça os nossos quartos de casal</p>
       <div class="quartos-container center">
         <div class="border">
@@ -91,9 +91,9 @@
       </div>
     </div>
   </section>
-  <section class="quartos-bg" data-anime="scroll">
+  <section class="quartos-bg" aria-labelledby="familia" data-anime="scroll">
     <div class="quartos container">
-      <h2 class="font-1-xl cor-p3 center">QUARTOS FAMÍLIA</h2>
+      <h2 id="familia" class="font-1-xl cor-p3 center">QUARTOS FAMÍLIA</h2>
       <p class="font-1-s cor-p3 center">Conheça os nossos quartos família</p>
       <div class="quartos-container center">
         <div class="border">
@@ -124,7 +124,7 @@
   <main>
 
   </main>
-  <footer class="rodape-bg">
+  <footer class="rodape-bg" aria-label="Contato">
     <div class="rodape container">
       <div class="footer-contato">
         <ul class="links-contato center">
