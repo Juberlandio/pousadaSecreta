@@ -37,3 +37,8 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 } */
+@media (max-width: 600px) {
+.quarto .quartos-container .border + .border {
+padding-top: 50px;
+}
+}
