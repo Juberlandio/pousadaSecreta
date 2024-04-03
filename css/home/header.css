@@ -27,9 +27,10 @@ justify-content: space-between;
 align-items: center;
 list-style: none;
 cursor: pointer;
+}
+.cabecalho .menu li{
 padding: 24px 10px;
 }
-
 .cabecalho .menu li a{
 padding: 24px 10px;
 }
