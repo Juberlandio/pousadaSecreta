@@ -15,7 +15,7 @@ justify-content: space-between;
 align-items: center;
 }
 .cabecalho h1{
-padding: 15px;
+padding: 15px 15px 25px 15px;
 }
 .cabecalho span{
 padding-left: 5px;
@@ -28,14 +28,11 @@ align-items: center;
 list-style: none;
 cursor: pointer;
 }
-.cabecalho .menu li{
+.menu li{
 padding: 24px 10px;
 }
-.cabecalho .menu li a{
+.menu li a{
 padding: 24px 10px;
-}
-.cabecalho .menu li + li{
-margin-left: 30px;
 }
 @media (max-width: 600px) {
 .cabecalho {
@@ -45,7 +42,10 @@ justify-content: center;
 .cabecalho .menu{
 justify-content: center;
 }
-.cabecalho .menu li + li{
-margin-left: 0px;
+.menu li{
+padding: 24px 10px;
+}
+.menu li a{
+padding: 24px 10px;
 }
 }
