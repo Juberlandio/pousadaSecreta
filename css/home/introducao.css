@@ -6,6 +6,7 @@ background-image: url('/img/img-fundo.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+padding-top: 80px;
 }
 .introducao {
 width: 100%;
@@ -14,6 +15,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
+
 }
 .introducao .container-central {
 width: 655px;
@@ -33,6 +35,7 @@ margin-right: 20px;
 .introducao .container-central h1{
 padding-bottom: 22px;
 }
+
 @media (max-width: 600px) {
 .introducao .container-central h1{
 font-size: 2rem;
